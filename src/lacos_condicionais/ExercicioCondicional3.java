@@ -24,10 +24,10 @@ public class ExercicioCondicional3 {
 		if (idade >= 18 && idade <= 60) {
 			System.out.println(nome + " está apto para doar sangue!");
 		
-		}else if (idade >= 60 && idade <= 69 && primeiraDoacao) {
+		}else if (idade >= 60 && idade <= 69 && !primeiraDoacao) {
 			System.out.println(nome + " não está apto para doar sangue!");
 		}else {
-			System.out.println(nome + " está apto para doar sangue!");
+			System.out.println(nome + " não está apto para doar sangue!");
 		}
 		
 	}
